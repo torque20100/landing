@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Нерудные материалы — гарантия графика поставки</title>
+<meta name="description" content="Промышленный поставщик щебня и песка для B2B под ключ: фиксируем график в договоре, прикладываем паспорт качества к каждой партии, возим по ЮФО.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"></noscript>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<noscript>
+  <p class="noscript-banner">Часть сайта (расчёт доставки, отправка заявок) требует JavaScript. Если он отключён — позвоните нам: <a href="tel:+70000000000">+7 (8442) 00-00-00</a> или напишите на <a href="mailto:sales@домен.ru">sales@домен.ru</a>.</p>
+</noscript>
+
+<!-- ============ ШАПКА ============ -->
+<header class="site-header" id="top">
+  <a class="logo" href="#top" aria-label="На главную">
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+      <rect x="2" y="22" width="28" height="7" fill="var(--amber)"></rect>
+      <rect x="7" y="13" width="18" height="7" fill="var(--stone-light)"></rect>
+      <rect x="12" y="4" width="8" height="7" fill="var(--granite)"></rect>
+    </svg>
+    <span class="logo-text">
+      <span class="logo-word">НАЗВАНИЕ</span>
+      <span class="logo-tag mono">временный логотип</span>
+    </span>
+  </a>
+  <nav class="main-nav" id="mainNav" aria-label="Основная навигация">
+    <a href="#who">Кто вы</a>
+    <a href="#catalog">Каталог</a>
+    <a href="#calc">Доставка</a>
+    <a href="#docs">Документы</a>
+    <a href="#geo">География</a>
+    <a href="#cases">Кейсы</a>
+    <a href="#reviews">Отзывы</a>
+    <a href="#terms">Условия</a>
+    <a href="#about">О компании</a>
+  </nav>
+  <div class="header-right">
+    <a class="header-phone" href="tel:+70000000000">
+      <span class="phone-number">+7 (8442) 00-00-00</span>
+      <span class="mono phone-note">[телефон] · Пн–Сб</span>
+    </a>
+    <a class="btn btn-primary btn-compact" href="#kp" data-analytics="cta_header">Запросить КП</a>
+    <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="mainNav" id="navToggle"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ 01/11 HERO ============ -->
+  <section class="hero" id="hero">
+    <svg class="hero-orbits" width="1100" height="900" viewBox="0 0 1100 900" fill="none" aria-hidden="true">
+      <g stroke="#F2F0EC" stroke-opacity=".08" stroke-width="1.2">
+        <ellipse cx="560" cy="440" rx="520" ry="360" transform="rotate(-12 560 440)"></ellipse>
+        <ellipse cx="584" cy="452" rx="404" ry="274" transform="rotate(-8 584 452)"></ellipse>
+        <ellipse cx="606" cy="464" rx="288" ry="190" transform="rotate(-4 606 464)"></ellipse>
+        <ellipse cx="620" cy="472" rx="172" ry="110"></ellipse>
+      </g>
+      <g stroke="var(--amber)" stroke-opacity=".35" stroke-width="1.2">
+        <ellipse cx="584" cy="452" rx="404" ry="274" transform="rotate(-8 584 452)" stroke-dasharray="4 8"></ellipse>
+      </g>
+    </svg>
+    <div class="container hero-grid">
+      <div class="hero-main">
+        <p class="eyebrow"><span class="eyebrow-line"></span>Щебень и песок · Волгоградская обл. и ЮФО</p>
+        <h1>Нерудные материалы с&nbsp;гарантией графика поставки</h1>
+        <p class="lead">Промышленный поставщик под ключ: фиксируем график в договоре, прикладываем паспорт качества к каждой партии и возим своим и партнёрским автотранспортом по ЮФО.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#calc" data-analytics="cta_hero_primary">Рассчитать доставку</a>
+          <a class="btn btn-outline-dark" href="#kp" data-analytics="cta_hero_secondary">Запросить КП</a>
+        </div>
+      </div>
+      <aside class="schedule-widget">
+        <p class="mono widget-label">График отгрузки · неделя 41</p>
+        <div class="widget-days" id="widgetDays">
+          <div class="wd"><span class="wd-day mono">Пн</span><span class="wd-bar" style="--v:70%"></span></div>
+          <div class="wd"><span class="wd-day mono">Вт</span><span class="wd-bar" style="--v:85%"></span></div>
+          <div class="wd"><span class="wd-day mono">Ср</span><span class="wd-bar" style="--v:60%"></span></div>
+          <div class="wd"><span class="wd-day mono">Чт</span><span class="wd-bar" style="--v:95%"></span></div>
+          <div class="wd"><span class="wd-day mono">Пт</span><span class="wd-bar" style="--v:78%"></span></div>
+          <div class="wd"><span class="wd-day mono">Сб</span><span class="wd-bar" style="--v:40%"></span></div>
+        </div>
+        <div class="widget-stats">
+          <div><span class="mono ws-label">Отклонение от графика</span><span class="ws-value ok">0 ч</span></div>
+          <div><span class="mono ws-label">Итого за неделю</span><span class="ws-value">1 550 т · 62 рейса</span></div>
+        </div>
+        <p class="widget-note">Паспорт качества прикладывается к каждой ТТН</p>
+      </aside>
+    </div>
+    <div class="container stat-row" id="statRow">
+      <div class="stat"><span class="num" data-value="800">0</span><span class="label">тыс. т отгружено за 2025 год</span></div>
+      <div class="stat"><span class="num" data-value="65">0</span><span class="label">самосвалов в своём и партнёрском парке</span></div>
+      <div class="stat"><span class="num" data-value="140">0</span><span class="label">объектов в Волгоградской обл. и ЮФО</span></div>
+      <div class="stat"><span class="num" data-value="12">0</span><span class="label">лет на рынке нерудных материалов</span></div>
+    </div>
+    <p class="container stat-footnote">* иллюстративные значения — заменить фактическими до запуска</p>
+  </section>
+
+  <!-- ============ 02/11 КТО ВЫ ============ -->
+  <section class="section" id="who">
+    <div class="container">
+      <p class="section-eyebrow mono">02 / 11 — Кто вы</p>
+      <div class="section-head">
+        <h2>У каждого заказчика своя цена сорванной поставки</h2>
+        <p class="sub">Выберите, чем вы занимаетесь, — покажем, как мы закрываем именно вашу задачу, и подсветим подходящий кейс ниже.</p>
+      </div>
+      <div class="segments" role="group" aria-label="Сегменты клиентов">
+        <button class="segment-tile is-active" data-segment="road" aria-pressed="true"><span class="seg-num mono">01</span><span class="seg-label">Дорожники / АБЗ</span></button>
+        <button class="segment-tile" data-segment="developer" aria-pressed="false"><span class="seg-num mono">02</span><span class="seg-label">Застройщики</span></button>
+        <button class="segment-tile" data-segment="concrete" aria-pressed="false"><span class="seg-num mono">03</span><span class="seg-label">Бетон / ЖБИ</span></button>
+        <button class="segment-tile" data-segment="gov" aria-pressed="false"><span class="seg-num mono">04</span><span class="seg-label">Госзаказ 44-ФЗ</span></button>
+      </div>
+      <div class="pain-offer">
+        <div class="col">
+          <span class="k mono">Боль</span>
+          <span class="v" id="painText">Срыв графика поставки останавливает укладку — простаивает асфальтоукладчик и бригада.</span>
+        </div>
+        <div class="col offer">
+          <span class="k mono">Что мы делаем</span>
+          <span class="v" id="offerText">Гарантию графика поставки договором и паспорт качества на каждую партию щебня.</span>
+        </div>
+        <a class="lnk" href="#cases" id="segmentCaseLink">Смотреть кейс сегмента →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03/11 КАТАЛОГ ============ -->
+  <section class="section section-alt" id="catalog">
+    <div class="container">
+      <p class="section-eyebrow mono">03 / 11 — Каталог</p>
+      <div class="section-head">
+        <h2>Щебень и песок с марками и ГОСТ на каждую позицию</h2>
+        <p class="sub">Цена зависит от объёма, плеча и графика — поэтому её считает менеджер, а не прайс. Нужной фракции нет в списке — спросите, подберём у партнёров.</p>
+      </div>
+      <p class="scroll-hint mono">← Листайте таблицу вправо, чтобы увидеть все колонки →</p>
+      <div class="catalog-table" role="table">
+        <div class="cat-row cat-head" role="row">
+          <span role="columnheader">Код</span>
+          <span role="columnheader">Материал</span>
+          <span role="columnheader">Фракция</span>
+          <span role="columnheader">Марка</span>
+          <span role="columnheader">ГОСТ</span>
+          <span role="columnheader">Применение</span>
+          <span role="columnheader"></span>
+        </div>
+        <div class="cat-row" role="row">
+          <span class="mono cell-code" role="cell">ЩГ-520</span>
+          <span class="cell-name" role="cell"><span class="sw" style="background:var(--amber)"></span>Щебень гранитный</span>
+          <span class="mono" role="cell">5–20 мм</span>
+          <span class="mono" role="cell">М1400</span>
+          <span class="mono cell-gost" role="cell">8267-93</span>
+          <span class="cell-use" role="cell">Дорожное строительство, ответственный бетон</span>
+          <span class="cell-pick" role="cell"><a class="lnk" href="#calc" data-material="ЩГ-520">В расчёт →</a></span>
+        </div>
+        <div class="cat-row" role="row">
+          <span class="mono cell-code" role="cell">ЩИ-2040</span>
+          <span class="cell-name" role="cell"><span class="sw" style="background:var(--granite)"></span>Щебень известняковый</span>
+          <span class="mono" role="cell">20–40 мм</span>
+          <span class="mono" role="cell">М800</span>
+          <span class="mono cell-gost" role="cell">8267-93</span>
+          <span class="cell-use" role="cell">Отсыпка, дренаж, основания дорог</span>
+          <span class="cell-pick" role="cell"><a class="lnk" href="#calc" data-material="ЩИ-2040">В расчёт →</a></span>
+        </div>
+        <div class="cat-row" role="row">
+          <span class="mono cell-code" role="cell">ПК-М</span>
+          <span class="cell-name" role="cell"><span class="sw" style="background:var(--teak)"></span>Песок карьерный мытый</span>
+          <span class="mono" role="cell">—</span>
+          <span class="mono" role="cell">Мк 2,2–2,5</span>
+          <span class="mono cell-gost" role="cell">8736-2014</span>
+          <span class="cell-use" role="cell">Бетон и растворы с контролем крупности</span>
+          <span class="cell-pick" role="cell"><a class="lnk" href="#calc" data-material="ПК-М">В расчёт →</a></span>
+        </div>
+      </div>
+      <p class="section-footnote">* марки и фракции — сверить с паспортами карьера</p>
+      <div class="inline-cta">
+        <p>Нужен прайс под ваш объём? Отправьте спецификацию — пришлём КП с ценой франко-объект.</p>
+        <a class="btn btn-outline-dark btn-compact" href="#kp">Отправить спецификацию</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 04/11 КАЛЬКУЛЯТОР ============ -->
+  <section class="section" id="calc">
+    <div class="container">
+      <p class="section-eyebrow mono">04 / 11 — Калькулятор доставки</p>
+      <div class="section-head">
+        <h2>Рассчитаем доставку до вашего объекта</h2>
+        <p class="sub">Это не автоматический прайс. Стоимость зависит от плеча, объёма и графика, поэтому её считает менеджер и перезванивает с точной цифрой.</p>
+      </div>
+      <div class="how-it-works">
+        <div class="hiw"><span class="hiw-num mono">01</span><p>Вы заполняете три коротких шага — около минуты</p></div>
+        <div class="hiw"><span class="hiw-num mono">02</span><p>Менеджер считает логистику и перезванивает в течение 30 минут в рабочее время</p></div>
+        <div class="hiw"><span class="hiw-num mono">03</span><p>Вы получаете КП с ценой франко-объект и проектом графика поставки</p></div>
+      </div>
+
+      <div class="calc-grid">
+        <div class="wizard">
+          <form id="calcForm" novalidate>
+            <div class="wizard-head">
+              <span class="mono wizard-step-label">Шаг <span id="stepCurrent">1</span> из 3</span>
+              <div class="wizard-progress" aria-hidden="true">
+                <span class="step-dot is-active" data-dot="1"></span>
+                <span class="step-dot" data-dot="2"></span>
+                <span class="step-dot" data-dot="3"></span>
+              </div>
+            </div>
+
+            <fieldset class="wizard-step is-active" data-step="1">
+              <legend class="wizard-step-title">Какой материал нужен?</legend>
+              <label>Материал
+                <select name="material" id="materialSelect" required>
+                  <option value="">Выберите материал</option>
+                  <option value="ЩГ-520">Щебень гранитный 5–20</option>
+                  <option value="ЩИ-2040">Щебень известняковый 20–40</option>
+                  <option value="ПК-М">Песок карьерный мытый</option>
+                </select>
+              </label>
+              <div class="field-row">
+                <label>Объём
+                  <input type="number" name="volume" min="1" max="100000" placeholder="например, 120" required>
+                </label>
+                <label>Ед.
+                  <select name="unit"><option value="t">т</option><option value="m3">м³</option></select>
+                </label>
+              </div>
+              <label>Характер поставки
+                <select name="delivery_type">
+                  <option value="one-time">Разовая поставка</option>
+                  <option value="monthly">Ежемесячно по графику</option>
+                  <option value="season">На сезон</option>
+                </select>
+              </label>
+            </fieldset>
+
+            <fieldset class="wizard-step" data-step="2">
+              <legend class="wizard-step-title">Куда и как везём?</legend>
+              <label>Адрес или населённый пункт объекта
+                <input type="text" name="address" required>
+              </label>
+              <label>Регион
+                <select name="region">
+                  <option value="volgograd">Волгоградская обл.</option>
+                  <option value="rostov">Ростовская обл.</option>
+                  <option value="saratov">Саратовская обл.</option>
+                  <option value="astrakhan">Астраханская обл.</option>
+                  <option value="kalmykia">Респ. Калмыкия</option>
+                </select>
+              </label>
+              <fieldset class="delivery-fieldset">
+                <legend>Способ доставки</legend>
+                <div class="radio-row">
+                  <label class="radio"><input type="radio" name="delivery" value="auto" checked> Авто — действует</label>
+                  <label class="radio"><input type="radio" name="delivery" value="rail"> Ж/д — направление в подготовке</label>
+                </div>
+                <p class="delivery-warning" id="deliveryWarning" hidden>Ж/д-направление ещё не запущено — эта заявка зарегистрирует ваш интерес к будущему запуску, а не расчёт текущей доставки. Точный расчёт по авто — при выборе «Авто».</p>
+              </fieldset>
+              <label>Желаемая дата начала поставок
+                <input type="date" name="date">
+              </label>
+            </fieldset>
+
+            <fieldset class="wizard-step" data-step="3">
+              <legend class="wizard-step-title">Ваши контакты</legend>
+              <label>Имя *
+                <input type="text" name="name" required>
+              </label>
+              <label>Компания или ИНН
+                <input type="text" name="company">
+              </label>
+              <label>Телефон *
+                <input type="tel" name="phone" placeholder="+7" pattern="[0-9+\-\(\)\s]{10,20}" title="Например: +7 900 123-45-67" required>
+              </label>
+              <label>E-mail
+                <input type="email" name="email">
+              </label>
+              <label class="consent"><input type="checkbox" name="consent" required> Согласен на обработку персональных данных в соответствии с <a href="#privacy">политикой конфиденциальности</a> *</label>
+            </fieldset>
+
+            <div class="wizard-nav">
+              <button type="button" class="btn btn-outline-dark btn-compact" id="wizardBack" hidden>Назад</button>
+              <button type="button" class="btn btn-primary btn-compact" id="wizardNext">Далее</button>
+              <button type="submit" class="btn btn-primary btn-compact" id="wizardSubmit" hidden>Отправить заявку</button>
+            </div>
+          </form>
+          <div class="form-success" id="calcSuccess" hidden>
+            <p class="fs-title">Заявка принята</p>
+            <p>Менеджер посчитает доставку и перезвонит в течение 30 минут в рабочее время. Номер заявки придёт на e-mail, если вы его указали.</p>
+          </div>
+          <div class="form-error" id="calcError" hidden role="alert">
+            <p class="fs-title">Не получилось отправить заявку</p>
+            <p>Попробуйте ещё раз или позвоните нам напрямую: <a href="tel:+70000000000">+7 (8442) 00-00-00</a>.</p>
+            <button type="button" class="btn btn-outline-dark btn-compact" data-retry="calcForm">Попробовать снова</button>
+          </div>
+        </div>
+
+        <aside class="calc-summary mono">
+          <p class="cs-label">Ваш запрос</p>
+          <dl id="calcSummary">
+            <div><dt>Материал</dt><dd id="sumMaterial">—</dd></div>
+            <div><dt>Объём</dt><dd id="sumVolume">—</dd></div>
+            <div><dt>Направление</dt><dd id="sumAddress">—</dd></div>
+            <div><dt>Доставка</dt><dd id="sumDelivery">Авто</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 05/11 КАЧЕСТВО И ДОКУМЕНТЫ ============ -->
+  <section class="section section-alt" id="docs">
+    <div class="container">
+      <p class="section-eyebrow mono">05 / 11 — Качество и документы</p>
+      <div class="section-head">
+        <h2>Паспорта и протоколы открыты — не «по запросу»</h2>
+        <p class="sub">Посмотрите характеристики материала до того, как звонить. Для тендера и входного контроля скачайте PDF в один клик.</p>
+      </div>
+      <div class="docs-grid">
+        <div class="doc-list">
+          <button class="doc-row is-active" data-doc="0"><span class="mono">PDF</span><span>Паспорт качества — Щебень гранитный 5–20</span></button>
+          <button class="doc-row" data-doc="1"><span class="mono">PDF</span><span>Протокол лаборатории — Песок карьерный мытый</span></button>
+        </div>
+        <div class="doc-preview">
+          <p class="mono dp-kind" id="dpKind">Образец · загрузить PDF</p>
+          <p class="dp-title" id="dpTitle">Паспорт качества № [____] от [__.__.____]</p>
+          <p class="dp-org" id="dpOrg">[Название организации] · ИНН [__________]</p>
+          <dl class="dp-values mono" id="dpValues">
+            <div><dt>Марка прочности</dt><dd>М1400</dd></div>
+            <div><dt>Лещадность</dt><dd>I группа</dd></div>
+            <div><dt>Морозостойкость</dt><dd>F300</dd></div>
+          </dl>
+          <button class="btn btn-outline-dark btn-compact" data-analytics="doc_download">Скачать PDF</button>
+        </div>
+      </div>
+      <div class="inline-cta">
+        <p>Нужен пакет документов под тендер или входной контроль?</p>
+        <a class="btn btn-outline-dark btn-compact" href="#kp">Запросить полный пакет</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 06/11 ЛОГИСТИКА И ГЕОГРАФИЯ ============ -->
+  <section class="section" id="geo">
+    <div class="container">
+      <p class="section-eyebrow mono">06 / 11 — Логистика и география</p>
+      <div class="section-head">
+        <h2>Возим самосвалами по ЮФО, готовим ж/д на юго-восток</h2>
+        <p class="sub">Рабочее плечо автодоставки — 200–300 км от Волгограда. Дальше — по согласованию или по железной дороге, когда направление запустится.</p>
+      </div>
+
+      <svg class="geo-map" viewBox="0 0 640 460" role="img" aria-label="Схема доставки от Волгограда" aria-describedby="geoMapDesc">
+        <circle cx="320" cy="230" r="110" fill="none" stroke="var(--border)" stroke-dasharray="3 5"></circle>
+        <circle cx="320" cy="230" r="190" fill="none" stroke="var(--border)" stroke-dasharray="3 5"></circle>
+        <text x="320" y="122" class="mono geo-ring-label" text-anchor="middle">200 км</text>
+        <text x="320" y="42" class="mono geo-ring-label" text-anchor="middle">300 км</text>
+
+        <circle cx="320" cy="230" r="7" fill="var(--amber)"></circle>
+        <text x="320" y="252" class="geo-city geo-city-main" text-anchor="middle">Волгоград</text>
+
+        <circle cx="300" cy="130" r="4" fill="var(--teak)"></circle><text x="300" y="118" class="geo-city" text-anchor="middle">Камышин</text>
+        <circle cx="245" cy="210" r="4" fill="var(--teak)"></circle><text x="220" y="198" class="geo-city" text-anchor="middle">Михайловка</text>
+        <circle cx="335" cy="255" r="4" fill="var(--teak)"></circle><text x="360" y="270" class="geo-city" text-anchor="middle">Волжский</text>
+        <circle cx="360" cy="320" r="4" fill="var(--teak)"></circle><text x="380" y="338" class="geo-city" text-anchor="middle">Котельниково</text>
+        <circle cx="140" cy="150" r="4" fill="var(--granite)"></circle><text x="120" y="138" class="geo-city" text-anchor="middle">Саратов</text>
+        <circle cx="150" cy="360" r="4" fill="var(--granite)"></circle><text x="130" y="378" class="geo-city" text-anchor="middle">Ростов-на-Дону</text>
+        <circle cx="430" cy="330" r="4" fill="var(--granite)"></circle><text x="450" y="348" class="geo-city" text-anchor="middle">Элиста</text>
+        <circle cx="500" cy="230" r="4" fill="var(--granite)"></circle><text x="520" y="218" class="geo-city" text-anchor="middle">Астрахань</text>
+
+        <text x="320" y="440" class="mono geo-scale" text-anchor="middle">Схема, не в масштабе</text>
+      </svg>
+      <p id="geoMapDesc" class="sr-only">Схема доставки от Волгограда. В радиусе 200 км: Камышин, Михайловка, Волжский, Котельниково. В радиусе 300 км и далее: Саратов, Ростов-на-Дону, Элиста, Астрахань.</p>
+
+      <div class="logi-row">
+        <div class="logi-card is-active">
+          <span class="status">Действует</span>
+          <h3>Автодоставка</h3>
+          <dl class="logi-attrs mono">
+            <div><dt>Плечо</dt><dd>200–300 км</dd></div>
+            <div><dt>Транспорт</dt><dd>Самосвалы 20–30 т</dd></div>
+            <div><dt>Отгрузка</dt><dd>С 6:00, по графику</dd></div>
+            <div><dt>Документы</dt><dd>ТТН + паспорт</dd></div>
+          </dl>
+          <a class="lnk" href="#calc">Рассчитать доставку →</a>
+        </div>
+        <div class="logi-card is-soon">
+          <span class="status">Скоро</span>
+          <h3>Ж/д — Астрахань, Калмыкия</h3>
+          <p>Будущее направление. Оставьте контакт — сообщим о запуске и дадим приоритет по первым объёмам.</p>
+          <form class="rail-form" id="railForm" novalidate>
+            <label class="sr-only" for="railContact">Телефон или e-mail</label>
+            <input type="text" id="railContact" name="contact" placeholder="Телефон или e-mail" required>
+            <label class="sr-only" for="railStation">Станция назначения</label>
+            <select id="railStation" name="station">
+              <option value="astrakhan">Астраханская обл.</option>
+              <option value="kalmykia">Респ. Калмыкия</option>
+              <option value="other">Другое</option>
+            </select>
+            <button type="submit" class="btn btn-outline-dark btn-compact">Сообщить о запуске</button>
+          </form>
+          <p class="form-success" id="railSuccess" hidden>Спасибо — вы в списке. Напишем, как только откроем направление.</p>
+          <div class="form-error" id="railError" hidden role="alert">
+            <p>Не получилось отправить. Попробуйте ещё раз или позвоните: <a href="tel:+70000000000">+7 (8442) 00-00-00</a>.</p>
+            <button type="button" class="btn btn-outline-dark btn-compact" data-retry="railForm">Попробовать снова</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 07/11 КЕЙСЫ ============ -->
+  <section class="section section-alt" id="cases">
+    <div class="container">
+      <p class="section-eyebrow mono">07 / 11 — Кейсы</p>
+      <div class="section-head">
+        <h2>По одному объекту на каждый тип заказчика</h2>
+        <p class="sub">Кейсы собираем с согласия заказчиков — с объёмами, сроками и результатом. Подсвечен кейс выбранного вами сегмента.</p>
+      </div>
+      <div class="cases-grid">
+        <article class="case-card" data-segment="road"><span class="mono case-num">01</span><span class="case-tag">В работе</span><h3>Дорожники / АБЗ</h3></article>
+        <article class="case-card" data-segment="developer"><span class="mono case-num">02</span><span class="case-tag">В работе</span><h3>Застройщики</h3></article>
+        <article class="case-card" data-segment="concrete"><span class="mono case-num">03</span><span class="case-tag">В работе</span><h3>Бетон / ЖБИ</h3></article>
+        <article class="case-card" data-segment="gov"><span class="mono case-num">04</span><span class="case-tag">В работе</span><h3>Госзаказ 44-ФЗ</h3></article>
+      </div>
+      <div class="inline-cta">
+        <p>Похожий объект? Расскажите о нём — предложим схему поставки.</p>
+        <a class="btn btn-outline-dark btn-compact" href="#kp">Обсудить объект</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 08/11 ОТЗЫВЫ ============ -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <p class="section-eyebrow mono">08 / 11 — Отзывы</p>
+      <div class="section-head">
+        <h2>Благодарственные письма на бланках</h2>
+        <p class="sub">Публикуем только подписанные письма с названием компании и должностью — их можно проверить.</p>
+      </div>
+      <div class="letters-grid">
+        <div class="letter-card"><span class="mono letter-tag">Скан письма · заглушка</span></div>
+        <div class="letter-card"><span class="mono letter-tag">Скан письма · заглушка</span></div>
+        <div class="letter-card"><span class="mono letter-tag">Скан письма · заглушка</span></div>
+      </div>
+      <div class="inline-cta">
+        <a class="btn btn-outline-dark btn-compact" href="#kp">Запросить контакты для рекомендации</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 09/11 B2B-УСЛОВИЯ ============ -->
+  <section class="section section-alt" id="terms">
+    <div class="container">
+      <p class="section-eyebrow mono">09 / 11 — B2B-условия</p>
+      <div class="section-head">
+        <h2>Работаем так, как привыкла ваша бухгалтерия и служба закупок</h2>
+        <p class="sub">Договор, закрывающие документы и вес в ТТН — прозрачно с первой поставки.</p>
+      </div>
+      <div class="terms-grid">
+        <div class="term-card"><span class="mono term-num">01</span><h3>Договор и НДС</h3><p>Полный пакет сопроводительных документов на каждую поставку.</p></div>
+        <div class="term-card"><span class="mono term-num">02</span><h3>ЭДО</h3><p>Электронный документооборот — без бумажной волокиты.</p></div>
+        <div class="term-card"><span class="mono term-num">03</span><h3>Отсрочка</h3><p>Для постоянных клиентов — обсуждается индивидуально.</p></div>
+        <div class="term-card"><span class="mono term-num">04</span><h3>44-ФЗ / 223-ФЗ</h3><p>Готовим пакет документов для тендера.</p></div>
+        <div class="term-card"><span class="mono term-num">05</span><h3>Контрольное взвешивание</h3><p>Вес фиксируется в ТТН на каждую поставку — без недовеса.</p></div>
+      </div>
+      <div class="inline-cta">
+        <p>Пришлите карточку предприятия — подготовим проект договора поставки.</p>
+        <a class="btn btn-outline-dark btn-compact" href="#kp">Запросить договор</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 10/11 О КОМПАНИИ ============ -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div>
+        <p class="section-eyebrow mono">10 / 11 — О компании</p>
+        <div class="section-head">
+          <h2>Свой карьер плюс сеть проверенных партнёров</h2>
+        </div>
+        <p class="body-text">Добываем на собственном карьере [название, район]. Если нужной фракции или объёма нет — отгружаем с партнёрского карьера, но с тем же входным контролем, паспортом и в том же графике. Для вас это один договор и один ответственный.</p>
+        <div class="about-steps">
+          <div class="about-step"><span class="mono">01</span><span>Свой карьер</span></div>
+          <div class="about-step"><span class="mono">02</span><span>Партнёрские карьеры</span></div>
+          <div class="about-step"><span class="mono">03</span><span>Входной контроль</span></div>
+          <div class="about-step"><span class="mono">04</span><span>Ваш объект</span></div>
+        </div>
+        <a class="lnk" href="#kp">Приехать на карьер и посмотреть →</a>
+      </div>
+      <div class="placeholder-photo mono">Фото · карьер / техника</div>
+    </div>
+  </section>
+
+  <!-- ============ 11/11 ЗАПРОС КП ============ -->
+  <section class="section final-cta" id="kp">
+    <div class="container final-grid">
+      <div class="final-info">
+        <p class="section-eyebrow mono light">11 / 11 — Запрос КП</p>
+        <h2>Пришлите спецификацию — вернёмся с ценой и графиком</h2>
+        <p class="sub light">Приложите смету или ведомость материалов — посчитаем по позициям и предложим график поставки под этапы работ.</p>
+        <dl class="contact-block mono">
+          <div><dt>Телефон</dt><dd>+7 (8442) 00-00-00 <span class="todo-mark">[заменить]</span></dd></div>
+          <div><dt>E-mail</dt><dd>sales@домен.ru <span class="todo-mark">[уточнить]</span></dd></div>
+          <div><dt>Офис</dt><dd>Волгоград, адрес офиса <span class="todo-mark">[уточнить]</span></dd></div>
+          <div><dt>Отгрузка</dt><dd>Пн–Сб, 6:00–20:00</dd></div>
+        </dl>
+      </div>
+      <div class="lead-form-card">
+        <form class="lead-form" id="leadForm" novalidate>
+          <label>Имя *
+            <input type="text" name="name" required>
+          </label>
+          <label>Компания или ИНН
+            <input type="text" name="company">
+          </label>
+          <label>Телефон *
+            <input type="tel" name="phone" placeholder="+7" pattern="[0-9+\-\(\)\s]{10,20}" title="Например: +7 900 123-45-67" required>
+          </label>
+          <label>E-mail
+            <input type="email" name="email">
+          </label>
+          <label>Материалы, объём, объект *
+            <textarea name="request" placeholder="например: щебень гранит 5–20, 300 т, объект в Волжском" required></textarea>
+          </label>
+          <label class="file-label">
+            <span>Спецификация или смета · PDF, XLSX, DOCX до 20 МБ</span>
+            <input type="file" name="attachment" accept=".pdf,.xlsx,.docx,application/pdf,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+          </label>
+          <span class="field-error" id="fileError" role="alert"></span>
+          <label class="consent"><input type="checkbox" name="consent" required> Согласен на обработку персональных данных в соответствии с <a href="#privacy">политикой конфиденциальности</a> *</label>
+          <button type="submit" class="btn btn-primary">Отправить запрос</button>
+          <p class="form-note">Ответим в течение 1 рабочего дня</p>
+        </form>
+        <div class="form-success" id="leadSuccess" hidden>
+          <p class="fs-title">Запрос отправлен</p>
+          <p>Менеджер изучит спецификацию и пришлёт КП с ценой франко-объект и проектом графика.</p>
+        </div>
+        <div class="form-error" id="leadError" hidden role="alert">
+          <p class="fs-title">Не получилось отправить запрос</p>
+          <p>Попробуйте ещё раз или позвоните нам напрямую: <a href="tel:+70000000000">+7 (8442) 00-00-00</a>.</p>
+          <button type="button" class="btn btn-outline-dark btn-compact" data-retry="leadForm">Попробовать снова</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ ФУТЕР ============ -->
+<footer class="site-footer" id="contacts">
+  <div class="container footer-row">
+    <a class="logo" href="#top">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect x="2" y="22" width="28" height="7" fill="var(--amber)"></rect>
+        <rect x="7" y="13" width="18" height="7" fill="var(--stone-light)"></rect>
+        <rect x="12" y="4" width="8" height="7" fill="var(--granite)"></rect>
+      </svg>
+      <span class="logo-word">НАЗВАНИЕ</span>
+    </a>
+    <nav class="footer-nav">
+      <a href="#catalog">Каталог</a>
+      <a href="#calc">Доставка</a>
+      <a href="#docs">Документы</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#terms">Условия</a>
+      <a href="#kp">Контакты</a>
+    </nav>
+  </div>
+  <div class="container">
+    <p class="footer-legal mono">ООО «[НАЗВАНИЕ]» · ИНН [__________] · ОГРН [_____________] · <a href="#privacy">Политика конфиденциальности</a></p>
+    <p class="footer-legal mono" id="privacy">Политика конфиденциальности — документ будет опубликован здесь перед запуском боевой версии сайта.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
